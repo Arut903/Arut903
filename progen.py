@@ -21,11 +21,12 @@ for i in lst:
 	elif l.tag.POS == ('VERB' or 'INFN'):
 		countVERB += 1 # подсчет глаголов
 
-print('В тексте найдено: '
+# print('В тексте найдено: '
 
-	+ str(countADJ) + ' прилагательных, '
+# 	+ str(countADJ) + ' прилагательных, '
 
-	+ str(countADVERB) + ' наречий, '
+# 	+ str(countADVERB) + ' наречий, '
+# # 
+# 	+ str(countVERB) + ' глаголов')
+# handle.close()
 
-	+ str(countVERB) + ' глаголов')
-handle.close()
