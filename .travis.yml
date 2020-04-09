@@ -1,6 +1,6 @@
 language: python
 install:
-  - python pip install pymorphy2
+  - pip install pymorphy2
 script:
   - python progen.py
   - pytest
