@@ -1,7 +1,7 @@
 import pymorphy2
 import re
 
-handle = open("text.txt", "r")
+handle = open("Text.txt", "r")
 data = handle.read()
 data = re.sub(r'[^\w\s]','', data) # удаление пунктуации
 lst = data.split() # текст разбит по словам
