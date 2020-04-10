@@ -1,0 +1,3 @@
+pytest
+pymorphy2
+coverage>=1.11.1
