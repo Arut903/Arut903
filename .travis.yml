@@ -4,6 +4,7 @@ addons:
     organization: "arut903"
     token:  9098d99b10f020332dc737eb0fa83df3dc7c0ea4
 install:
+  - pip install coverage coveralls
   - pip install -I -r requirements.txt
 script:
   - coverage run -m --source=. pytest
